@@ -1,0 +1,305 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar-nav, .navbar-header {
+  padding: 5px 0;
+}
+
+.navbar-inverse .navbar-nav > .active {
+  border-left: 1px solid grey;
+  background: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: transparent;
+}
+.carousel-inner .item {
+  height: 400px;
+  width: auto;
+}
+h3 {
+  text-align: center;
+}
+#myCarouselItem {
+  margin: 80px auto;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: grey;
+  opacity: 0.3;
+}
+
+.carousel-indicators .active {
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.icons-margins {
+  margin: 50px auto;
+}
+i.fa {
+  font-size: 51px;
+}
+
+#Parallax-Intro-Section {
+  position: relative;
+  min-height: 200px;
+  background: url(img/parallax/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.parallax-intro-section-content {
+  padding-top: 40px;
+}
+.laptop-content {
+  padding: 30px 0;
+}
+
+.myBtn {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+}
+
+#ParallaxSection-Video {
+  position: relative;
+  min-height: 200px;
+  background: url(img/parallax-video/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+#video-play a {
+  color: #fff;
+}
+
+.video-content {
+  padding: 40px 0;
+  color: white;
+}
+.video-content .fa {
+  color: white;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-3 {
+  margin-bottom: 40px;
+}
+.myForm {
+  text-align: center;
+}
+.form-section-color {
+  background-color: #333333;
+  color: white;
+  padding: 10px 0;
+}
+.form-margin-right {
+  margin-right: 10px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.myImgAbout {
+  width: 300px;
+  margin-top: -50px;
+}
+
+.myCardBody {
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+.carousel-intro-color {
+  background-color: #333333;
+  color: white;
+}
+#carousel-property {
+  height: 60px;
+}
+
+#carousel-property .item {
+  height: 100px;
+  color: white;
+  z-index: inherit;
+}
+
+.mycarousel-control {
+  height: 0;
+  width: 3%;
+  font-size: 13px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+  filter: none !important;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+.background-image {
+  background: url("img/carousel-pictures/image-1.jpg");
+  background-attachment: fixed;
+  height: 400px;
+}
+.background-content {
+  color: white;
+  padding-top: 150px;
+}
+.margin-30 {
+  margin: 30px 0;
+}
+.panel-card {
+  border: 1px solid #c2bfbf;
+  border-radius: 3px;
+}
+
+.panel-card-header {
+  background-color: #dedede;
+}
+.panel-card-header {
+  border: 1px solid#DEDEDE;
+  background-color: #dedede;
+}
+.panel-card-body {
+  padding: 10px 20px;
+}
+.panel-card-footer {
+  border: 1px solid#DEDEDE;
+  background-color: #dedede;
+  padding: 10px 0;
+}
+.list-group-item .fa {
+  font-size: 20px;
+}
+.background-color-grey {
+  background-color: #515151;
+  color: white;
+}
+
+.myButton-change {
+  background: white;
+  color: rgb(211, 77, 77);
+  border: 1px solid rgb(211, 77, 77);
+}
+
+.myButton-change:hover {
+  background: rgb(211, 77, 77);
+  color: white;
+}
+.panel,
+.thumbail {
+  cursor: pointer;
+}
+
+.panel-custom-property {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.panel-custom-coloring {
+  background-color: #333333;
+}
+
+.thumbail-custom-property {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.color-red {
+  background-color: red;
+  color: white;
+}
+.color-blue {
+  background-color: blue;
+  color: white;
+}
+.blog-pictures {
+  height: 200px;
+  width: fit-content;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.custom > .panel-body {
+  border: 1px solid rgb(167, 159, 159);
+}
+
+.staff-background-color {
+  background-color: #333333;
+  color: white;
+}
+
+#carousel-property .item {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .form-style {
+    max-width: 80px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .carousel-inner .item {
+    height: auto;
+  }
+
+  #carousel-property {
+    height: 80px;
+  }
+  .dark-overlay {
+    background-color: hidden;
+  }
+  .margin-bottom-xs {
+    margin-bottom: 20px;
+  }
+  .form-style {
+    max-width: 100%;
+  }
+  .form-margin-right {
+    margin-bottom: 5px;
+  }
+}

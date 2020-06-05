@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Challenge 09</title>
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ------------------------------------------------------------NAV-BAR------------------------------------------------------------------- -->
+   
+    <nav class="nav navbar-inverse">
+      <div class="container-fluid padding">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Glozzom</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav ml-auto navbar-right">
+              <li class="nav-item active">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    
+    <!-- ---------------------------------------------------------CAROUSEL--------------------------------------------------------------------- -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          id="carousel-example-generic"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-generic"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img
+                src="img/carousel-pictures/image-1.jpg"
+                class="img-responsive"
+                alt="main-picture" 
+              > 
+              <div class="carousel-caption hidden-xs" id="myCarouselItem">
+                <h1 class="text-right">Heading One</h1>
+                <p class="lead text-right">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, libero. voluptas ipsa id aliquam. Atque dolorem dolor
+                  quis incidunt laaa
+                </p>
+                <button class="button btn-danger btn-lg pull-right">
+                  SING UP NOW
+                </button>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="img/carousel-pictures/image-2.jpg"
+                class="img-responsive"
+                alt="main-picture"
+              />
+              <div class="carousel-caption hidden-xs" id="myCarouselItem">
+                <h1 class="text-center">Heading Two</h1>
+                <p class="lead text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit, expedita. Ipsa labore dignissimos pariatur corrupti
+                  explicabo id non eligendi atque!
+                </p>
+                <button class="button btn-primary btn-lg">Learn more</button>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="img/carousel-pictures/image-3.jpg"
+                class="img-responsive"
+                alt="main-picture"
+              />
+              <div class="carousel-caption hidden-xs" id="myCarouselItem">
+                <h1 class="text-center">Heading Three</h1>
+                <p class="lead text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, libero. voluptas ipsa id aliquam. Atque dolorem dolor
+                  quis incidunt laaa
+                </p>
+                <button class="button btn-success btn-lg">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    
+
+      <!-- --------------------------------------------Icons-Content------------------------------------------------- -->
+
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-lg-offset-2">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4 text-center icons-margins">
+                <i class="fa fa-cog fa-1"></i>
+                <h3>Turning Gears</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam, labore.
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-4 text-center icons-margins">
+                <i class="fa fa-cloud"></i>
+                <h3>Sending Data</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam, labore.
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-4 text-center icons-margins">
+                <i class="fa fa-cart-plus"></i>
+                <h3>Making Money</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam, labore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- -------------------------------------------Parallax-Intro-Section------------------------------------ -->
+      
+
+          <div class="row">
+            <section id="Parallax-Intro-Section">
+              <div class="dark-overlay">
+                <div class="col-md-12">
+                  <div class="parallax-intro-section-content text-center">
+                    <h3>Are you ready to get started?</h3>
+                    <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus inventore consequuntur maxime et praesentium
+                    non exercitationem, minima corrupti perferendis enim!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          
+  
+
+      <!-- ---------------------------------------------LapTop-Info-------------------------------------------------- -->
+
+      
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-md-offset-2 text-left">
+            <div class="laptop-content">
+              <h3 class="text-left"><strong>Lorem Ipsum</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perspiciatis incidunt eum laborum aliquid eveniet esse dolorum
+                doloremque error cum qui?
+              </p>
+              <a href="#" class="btn btn-outline  myBtn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <img
+              src="img/lap-top/laptop.png"
+              class="img-responsive"
+              alt="lap-top"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- 
+  ---------------------------------------------ParallaxSection-Video-------------------------------------------- -->
+
+      
+          <div class="row">
+            <section id="ParallaxSection-Video">
+              <div class="dark-overlay">
+            <div class="col-md-12 video-content">
+              <a
+                href="#"
+                class="video"
+                data-toggle="modal"
+                data-target="#YTModal"
+              >
+                <i class="fa fa-play"></i>
+              </a>
+              <h1>See What We Do</h1>
+
+              <div class="modal fade" id="YTModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/trVp-PYWrGQ"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+      
+
+      <!-- -------------------------------------------PicSection------------------------------------ -->
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <h3>Photo gallery</h3>
+          <p>Check out our photos</p>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+     
+            <div class="col-md-4 col-sm-4 margin-bottom">
+            <a href="#" class="picture" data-toggle="modal" data-target="#image-picture">
+              <img src='img/pictures/1.png' class="img-responsive">
+            </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 margin-bottom">
+              <a href="#" class="picture" data-toggle="modal" data-target="#image-picture-2">
+                <img src='img/pictures/2.png' class="img-responsive">
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 margin-bottom">
+              <a href="#" class="picture" data-toggle="modal" data-target="#image-picture-3">
+                <img src='img/pictures/3.png' class="img-responsive">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="image-picture">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/1.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="image-picture-2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/2.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="modal fade" id="image-picture-3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/3.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+     
+            <div class="col-md-4 col-sm-4 margin-bottom">
+            <a href="#" class="picture" data-toggle="modal" data-target="#image-picture-4">
+              <img src='img/pictures/4.png' class="img-responsive">
+            </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 margin-bottom">
+              <a href="#" class="picture" data-toggle="modal" data-target="#image-picture-5">
+                <img src='img/pictures/5.png' class="img-responsive">
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 margin-bottom">
+              <a href="#" class="picture" data-toggle="modal" data-target="#image-picture-6">
+                <img src='img/pictures/6.png' class="img-responsive">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="image-picture-4">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/4.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="image-picture-5">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/5.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="modal fade" id="image-picture-6">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+             <img src="img/pictures/6.png"  class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+      <!-- ----------------------------------------Form-Section---------------------------------- -->
+      
+      <div class="row form-section-color">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="form-intro text-center">
+            <h3>Sign up For Our Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, enim quos ea aliquam dolores vitae quae ratione saepe eius temporibus ad max
+               ime consectetur, cum eum iusto ullam accusantium maiores dignissimos.</p>
+          </div>  
+          
+
+          <form class="form-inline myForm">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control form-style form-margin-right" placeholder="Enter Name">
+                
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control form-style form-margin-right" placeholder="Enter Email">
+                
+            <button class="btn btn-primary form-style" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+
+
+    <!-- ---------------------------------FOOTER--------------------------------- -->
+
+      <div class="row footer">
+        <div class="col-md-12">
+            <p class="text-center">Copyright &copy; 2019 Igor Minarkov</p>
+        <div>
+    </div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script>
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      $(function() {
+        $('[data-toggle="popover"]').popover();
+      });
+      $(function() {
+        $('[data-toggle="modal"]').popover();
+      });
+      $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+      event.preventDefault();
+       $(this).ekkoLightbox();
+      })
+      $("#pop").on("click", function() {
+   $('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
+   $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+    </script>
+  </body>
+</html>
