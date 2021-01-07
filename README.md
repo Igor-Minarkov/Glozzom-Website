@@ -5,4 +5,4 @@ Very simple, almost static website which was Challenge09 from 20 Challenges in B
 Technologies and frameworks:
 HTML,
 CSS,
-BOOTSTAP
+BOOTSTRAP
