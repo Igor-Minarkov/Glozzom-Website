@@ -10,7 +10,8 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.navbar-nav, .navbar-header {
+.navbar-nav,
+.navbar-header {
   padding: 5px 0;
 }
 
